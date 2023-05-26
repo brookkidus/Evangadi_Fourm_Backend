@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
-    "client":"npm start --prefix client",
+    "client": "npm start --prefix client",
     "start": "node server.js"
   },
   "author": "bisrat",
@@ -21,6 +21,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mysql": "^2.18.1",
+    "mysql2": "^3.3.2",
     "nodemon": "^2.0.22",
     "uuid": "^9.0.0"
   }
